@@ -99,7 +99,7 @@
                                 <p><span class="f_12px f_Bold c_Gray">SCM NPM: <strong class="f_Strong" ${netProfitMargin > 40 ? 'style="color: #DD2F0B"' : ''}>${netProfitMargin}%</strong></span></p>
                                 <p><span class="f_12px f_Bold c_Gray"><strong class="f_Strong"><small>${steamRate}%</small></strong> cheaper than SCM.</span></p>
                                 <p><a href="${currItem.steam_market_url}" class="f_12px f_Bold c_Gray">Steam Market</a></p>
-                                <button class="buyItem" onclick="triggerBuy(${currItem.id})">Click me</button>
+                                <button class="buyItem" onclick="triggerBuy(${currItem.id})">Buy Now</button>
                             </div>
                         `
                     if (discountRate <= -7) {
